@@ -1,38 +1,38 @@
 {
-    "extends": ["react-app"],
-    "plugins": ["import"],
-    "rules": {
-        "import/order": [
-            "error",
-            {
-                "groups": [
-                    "builtin",
-                    "external",
-                    "internal",
-                    "parent",
-                    "sibling",
-                    "index"
-                ],
-                "pathGroups": [
-                    {
-                        "pattern": "react",
-                        "group": "builtin",
-                        "position": "before"
-                    },
-                    {
-                        "pattern": "{assets,assets/**,common,common/**,components,components/**,componentsV3,componentsV3/**,componentsV4,componentsV4/**,constants,constants/**,helpers,helpers/**,hooks,hooks/**,icons,icons/**,layouts,layouts/**,redux,redux/**,routes,routes/**,services,services/**,stories,stories/**,theme,theme/**,views,views/**}",
-                        "group": "internal"
-                    },
-                    {
-                        "pattern": ".*/**/*.css",
-                        "group": "index",
-                        "position": "after"
-                    }
-                ],
-                "newlines-between": "always",
-                "pathGroupsExcludedImportTypes": ["builtin"]
-            }
+  "extends": ["react-app"],
+  "plugins": ["import"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
         ],
-        "no-console": "error"
-    }
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "{assets,assets/**,common,common/**,components,components/**,componentsV3,componentsV3/**,componentsV4,componentsV4/**,constants,constants/**,helpers,helpers/**,hooks,hooks/**,icons,icons/**,layouts,layouts/**,redux,redux/**,routes,routes/**,services,services/**,stories,stories/**,theme,theme/**,views,views/**}",
+            "group": "internal"
+          },
+          {
+            "pattern": ".*/**/*.css",
+            "group": "index",
+            "position": "after"
+          }
+        ],
+        "newlines-between": "always",
+        "pathGroupsExcludedImportTypes": ["builtin"]
+      }
+    ],
+    "no-console": "error"
+  }
 }
