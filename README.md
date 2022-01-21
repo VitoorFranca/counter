@@ -1,15 +1,16 @@
--   [x] Prettier
--   [x] ESLint
--   [x] Editor Config
+- [x] Prettier
+- [x] ESLint
+      [] Airbnb
+- [x] Editor Config
 
--   [] Launcher do vs code
+- [] Launcher do vs code
 
 ## Installation
 
--   `git clone git@github.com:VitoorFranca/contador.git`
--   `cd contador`
--   `yarn install` or `npm install`
+- `git clone git@github.com:VitoorFranca/contador.git`
+- `cd contador`
+- `yarn install` or `npm install`
 
 ## Running
 
--   `npm start` or `yarn start`
+- `npm start` or `yarn start`
