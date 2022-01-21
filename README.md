@@ -12,5 +12,5 @@
 - `yarn install` or `npm install`
 
 ## Running
-     
+      
 - `npm start` or `yarn start`
