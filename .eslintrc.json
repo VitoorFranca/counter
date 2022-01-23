@@ -2,6 +2,7 @@
   "extends": ["react-app"],
   "plugins": ["import"],
   "rules": {
+    "quotes": ["error", "double"],
     "import/order": [
       "error",
       {

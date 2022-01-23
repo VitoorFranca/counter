@@ -1,8 +1,10 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo 'test'
-echo 'test'
-echo 'test'
-echo 'test'
-echo 'test'
+echo 'Running Eslint test'
+npm run eslint
+echo '  ✅ Eslint'
+
+echo 'Running Prettier test'
+npm run prettier
+echo '  ✅ Prettier'
