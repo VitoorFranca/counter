@@ -1,8 +1,16 @@
 {
-  "extends": ["react-app"],
-  "plugins": ["import"],
+  "extends": ["typescript", "prettier"],
+  "plugins": ["import", "prettier"],
   "rules": {
     "quotes": ["error", "double"],
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "tabWidth": 2,
+        "singleQuote": false
+      }
+    ],
     "import/order": [
       "error",
       {
