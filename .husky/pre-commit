@@ -2,9 +2,9 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo 'Running Eslint test'
-# npm run eslint
+npm run eslint
 echo '  ✅ Eslint'
 
 echo 'Running Prettier test'
-#npm run prettier
+npm run prettier
 echo '  ✅ Prettier'
